@@ -88,12 +88,7 @@ public class StudentService {
 	 * alt + shift + j
 	 * @author wogurdlek2@gmail.com
 	 */
-	/**
-	 * 
-	 */
-	/**
-	 * 
-	 */
+	
 	public void displayMenu() {
 		
 		int menuNum=0;
@@ -127,7 +122,7 @@ public class StudentService {
 				
 				}
 			
-			}catch(InputMismatchException e) {
+			}catch (InputMismatchException e) {
 				
 				System.out.println("\n error : 재입력");
 				sc.nextLine();
@@ -151,7 +146,7 @@ public class StudentService {
 			System.out.print("나이 : ");
 			int age = sc.nextInt();
 			System.out.print("지역 : ");
-			String region = sc.nextLine();
+			String region = sc.next();
 			System.out.print("성별 : ");
 			char gender = sc.next().charAt(0);
 			System.out.print("점수 : ");
